@@ -54,7 +54,7 @@ function Welcome() {
 
 
         </div>
-        <div className='w-full h-fit p-4 bg-slate-50 mt-12 flex flex-col items-center '>
+        <div className='w-full h-fit p-4  mt-12 flex flex-col items-center '>
           <h2 className=' text-gray-900 text-xl md:text-3xl lg:text-4xl font-bold  text-center ' >Welcome to Ajmal Packing official website</h2>
           <p className='text-base text-center font-normal lg:w-[1006px] tracking-tight text-balance my-6'>
           Ajmal Trading LLC is a UAE-based company that's been in the packing products game for a decade. We offer top-notch packing products like foam, aluminum containers, and clear disposable items that meet international hygiene standards. Our specialty lies in products for hospitals, hotels, and the catering industry, but they're also widely used for domestic purposes. Our products are crafted with high-end materials.

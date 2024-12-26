@@ -38,13 +38,13 @@ function Navbox({isMenuOpen, toggleMenu}) {
 
             <div className='w-full flex flex-row  items-center justify-around px-14'>
               <button>
-                <InstagramIcon style={{color:'white', fontSize:'50px'}}/>
+                <InstagramIcon style={{color:'white', fontSize:'30px'}}/>
               </button>
               <button>
-                <XIcon  style={{color:'white', fontSize:'50px'}}/>
+                <XIcon  style={{color:'white', fontSize:'30px'}}/>
               </button>
               <button>
-                <FacebookIcon  style={{color:'white', fontSize:'50px'}}/>
+                <FacebookIcon  style={{color:'white', fontSize:'30px'}}/>
               </button>
 
             </div>

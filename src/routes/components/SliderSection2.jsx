@@ -17,15 +17,15 @@ function SliderSection2() {
 
 
   return (
-    <div className='w-full h-screen relative'>
+    <div className='w-full max-w-screen-2xl  mx-auto xl:  relative'>
 
        <SecondSlider ref={sliderRef} />
 
-       <div className="w-full p-3 z-20 flex flex-row justify-center lg:justify-between absolute top-0 translate-y-[50vh] px-28 ">
+       <div className="w-full p-3 z-20 flex flex-row justify-center lg:justify-between   h-fit absolute top-0 bottom-0 my-auto px-28 ">
        <button onClick={handlePrev}  className='hidden lg:block'>
           <KeyboardArrowLeftIcon style={{fontSize: '60px', fontWeight: '100' }} />
         </button>
-        <div className="w-fit p-3 backdrop-blur-md flex items-center rounded-lg ">
+        <div className="w-fit h-fit p-3 backdrop-blur-md flex items-center rounded-lg ">
         <h2 className='text-xl md:text-3xl lg:text-4xl font-semibold text-center whitespace-nowrap tracking-widest text-gray-900 '>
             We're using bamboo products.
             </h2>

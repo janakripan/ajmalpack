@@ -21,7 +21,11 @@ function Footer() {
               <ul className='hidden  w-full h-fit my-4 md:flex flex-row  items-center gap-3'>
                 {socialMedia.map((item,index)=>(
                   <li key={index}>
-                    <Link to={item.link}>
+                    <Link to={item.link}
+                    
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     >
                     <div>
                       <img src={item.icon} alt="" />
                     </div>

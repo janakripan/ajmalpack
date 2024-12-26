@@ -8,11 +8,11 @@ import twitter from '../assets/socialmediaIcons/Twitter.png'
 const socialMedia = [
     {
         icon:facebook,
-        link:''
+        link:'https://www.facebook.com/TheDummyPage/'
     },
     {
         icon:instagram,
-        link:''
+        link:'https://www.instagram.com/notdummy/?hl=en'
     },
     {
         icon:linkedin,

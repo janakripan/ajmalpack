@@ -13,8 +13,8 @@ const SecondSlider = React.forwardRef((props, ref) => {
     <div className="slider-container -z-10">
       <Slider {...settings}  ref={ref} >
         {secondSliderData.map((item, index)=>(
-          <div key={index} className=" w-full h-screen -z-10 bg-slate-500">       
-          <img src={item.image} alt={item.title} className="w-full h-full object-cover " />  
+          <div key={index} className=" w-full h-fit -z-10">       
+          <img src={item.image} alt={item.title} className="w-full  object-cover h-fit lg:h-screen  2xl:h-auto" />  
           </div>
 
         ))}

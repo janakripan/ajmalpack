@@ -16,7 +16,7 @@ function Categories() {
                { categoriesData.map((item,index)=>(
 
                 <Link>
-                <div key={item.index} className=' h-fit w-fit flex items-center justify-center  aspect-square hover:scale-110 transition-all duration-300 ' >
+                <div key={index} className=' h-fit w-fit flex items-center justify-center  aspect-square hover:scale-110 transition-all duration-300 ' >
                 <img src={item.image} alt="" />
                 
 
