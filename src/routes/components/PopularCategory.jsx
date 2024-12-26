@@ -5,7 +5,7 @@ import image1 from '../../assets/popular.png'
 
 function PopularCategory() {
   return (
-    <div className='w-full max-w-screen-xl mx-auto h-fit px-12  flex flex-col items-center'>
+    <div className='w-full max-w-screen-xl mx-auto h-fit px-3 lg:px-12  flex flex-col items-center'>
 
         <div className="w-10/12  flex flex-col  md:flex-row justify-between items-center my-10 ">
 
